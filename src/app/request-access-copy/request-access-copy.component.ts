@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   moduleId: module.id,
   selector: 'app-request-access-copy',
   templateUrl: 'request-access-copy.component.html',
-  styleUrls: ['request-access-copy.component.less']
+  styleUrls: ['request-access-copy.component.css']
 })
 export class RequestAccessCopyComponent implements OnInit {
 

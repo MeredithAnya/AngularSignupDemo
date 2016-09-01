@@ -1,0 +1,33 @@
+@red: #E45765;
+@darkgrey: #474C50;
+@lightgrey: #A6A6A6;
+@white: #FFFFFF;
+@font-face {
+  font-family: 'SF Bold';
+  src: url('/assets/fonts/SF-Compact-Display-Bold.otf');
+}
+@font-face {
+  font-family: 'SF Reg';
+  src: url('/assets/fonts/SF-Compact-Display-Regular.otf');
+}
+.request-access-copy {
+  font-family: 'SF Bold';
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  p {
+    margin: 0;
+    font-size: 30px;
+    color: @red;
+  }
+  p:last-child {
+    font-family: 'SF Reg';
+    font-size: 15px;
+    color: @lightgrey;
+    margin-top: 20px;
+  }
+  img {
+    width: 800px;
+    height: 400px;
+  }
+}

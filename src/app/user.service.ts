@@ -7,7 +7,7 @@ export class UserService {
   constructor(
     private _router: Router) {}
 
-  login(user) {
+  signup(user) {
     this._router.navigate(['/thankyou'])
     return true;
   }
