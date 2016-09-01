@@ -5,18 +5,18 @@ import {
   it,
   inject
 } from '@angular/core/testing';
-import { MyAppAppComponent } from '../app/my-app.component';
+import { MyAppComponent } from '../app/my-app.component';
 
-beforeEachProviders(() => [MyAppAppComponent]);
+beforeEachProviders(() => [MyAppComponent]);
 
 describe('App: MyApp', () => {
   it('should create the app',
-      inject([MyAppAppComponent], (app: MyAppAppComponent) => {
+      inject([MyAppComponent], (app: MyAppComponent) => {
     expect(app).toBeTruthy();
   }));
 
   it('should have as title \'my-app works!\'',
-      inject([MyAppAppComponent], (app: MyAppAppComponent) => {
+      inject([MyAppComponent], (app: MyAppComponent) => {
     expect(app.title).toEqual('my-app works!');
   }));
 });
